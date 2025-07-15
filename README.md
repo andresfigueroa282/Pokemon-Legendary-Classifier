@@ -73,7 +73,7 @@ The model performs very well at identifying Legendary Pokémon with high recall 
 
 ## 📁 Files Included
 
-- `notebook.ipynb`: Jupyter notebook with code and outputs
+- `Pokemon Portfolio Project.ipynb`: Jupyter notebook with code and outputs
 - `pokemon.csv`: Cleaned dataset (or reference to Kaggle)
 - `README.md`: Project documentation
 
