@@ -1,12 +1,12 @@
 # 🧠 Legendary Pokémon Classifier
 
-This project uses supervised machine learning to predict whether a Pokémon is **Legendary** based on its base stats and characteristics. It was built using a cleaned version of a publicly available Pokémon dataset.
+This project uses supervised machine learning to predict whether a Pokémon is **Legendary** or not based on its stats and characteristics. It was built using a publicly available Pokémon dataset.
 
 ---
 
 ## 📌 Project Goal
 
-The objective is to train a binary classification model that can determine if a given Pokémon is *Legendary* (`True`) or *Not Legendary* (`False`). This is a classic machine learning problem suitable for beginners and ideal for demonstrating:
+The objective is to train a binary classification model that can determine if a given Pokémon is *Legendary* (`True`) or *Not Legendary* (`False`). This is ideal for demonstrating:
 
 - Data cleaning & preprocessing
 - Feature selection
@@ -19,9 +19,9 @@ The objective is to train a binary classification model that can determine if a 
 
 The dataset contains information about various Pokémon, including:
 
-- Base stats (`attack`, `defense`, `speed`, `hp`, `sp_attack`, `sp_defense`)
-- Physical traits (`height_m`, `weight_kg`)
-- Other attributes (`capture_rate`, `base_total`, `base_happiness`)
+- Base stats
+- Physical traits
+- Other attributes
 - Target variable: `is_legendary` (boolean)
 
 Some features such as `name`, `abilities`, and `type weaknesses` were removed to prevent data leakage or overfitting.
@@ -31,7 +31,6 @@ Some features such as `name`, `abilities`, and `type weaknesses` were removed to
 ## 🧪 Models Used
 
 - Decision Tree Classifier (primary)
-- Random Forest Classifier (optional for comparison)
 
 ---
 
@@ -53,21 +52,6 @@ Some features such as `name`, `abilities`, and `type weaknesses` were removed to
 - **F1 Score (Legendary)**: 93%
 
 The model performs very well at identifying Legendary Pokémon with high recall and strong overall accuracy.
-
----
-
-## 📊 Visualization
-
-- Feature importance plot to interpret model decisions
-- Confusion matrix heatmap for performance diagnostics
-
----
-
-## 🚀 Future Improvements
-
-- Add encoding for `type1` and `type2` using one-hot or label encoding
-- Try logistic regression, XGBoost, or SVM
-- Deploy as a web app using Streamlit
 
 ---
 
