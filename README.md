@@ -30,7 +30,7 @@ Some features such as `name`, `abilities`, and `type weaknesses` were removed to
 
 ## 🧪 Models Used
 
-- Decision Tree Classifier (primary)
+- Decision Tree Classifier, Random Forest, XGBoost
 
 ---
 
