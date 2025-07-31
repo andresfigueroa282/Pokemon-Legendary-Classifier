@@ -46,12 +46,11 @@ Some features such as `name`, `abilities`, and `type weaknesses` were removed to
 
 ## 📈 Results
 
-- **Accuracy**: ~98.7%
-- **Precision (Legendary)**: 88%
-- **Recall (Legendary)**: 100%
-- **F1 Score (Legendary)**: 93%
+- **Precision (Legendary)**: 100%
+- **Recall (Legendary)**: 93%
+- **F1 Score (Legendary)**: 96%
 
-The model performs very well at identifying Legendary Pokémon with high recall and strong overall accuracy.
+The model performs very well at identifying Legendary Pokémon with high Precision.
 
 ---
 
