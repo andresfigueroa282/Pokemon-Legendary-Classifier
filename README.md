@@ -25,8 +25,8 @@ The dataset includes a variety of Pokémon characteristics, such as:
 - **Target variable**: `is_legendary` (binary)
 
 **Removed Features**:
-- Categorical or descriptive features such as `type1`, `type2`, `name`, and `japanese_name`
-- Non-informative or potentially misleading features like `base_total` and `capture_rate`, which are directly or indirectly correlated with legendary status and could cause data leakage
+- Categorical or descriptive features such as `type1`, `type2`, `name`, and `japanese_name` - Non-informative or potentially misleading features like
+- `base_total` and `capture_rate`, which are directly or indirectly correlated with legendary status and could cause data leakage
 
 ---
 
