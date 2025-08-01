@@ -9,10 +9,10 @@ This project uses supervised machine learning to predict whether a Pokémon is *
 The goal is to train a **binary classification model** that predicts if a given Pokémon is *Legendary* (`True`) or *Not Legendary* (`False`), while demonstrating key machine learning steps:
 
 - Data cleaning and preprocessing
-- Feature selection and justification
+- Feature selection
 - Handling class imbalance (SMOTE)
 - Model training and tuning (Logistic Regression, Random Forest, XGBoost)
-- Evaluation using advanced metrics beyond accuracy
+- Evaluation using advanced metrics
 
 ---
 
@@ -32,21 +32,20 @@ The dataset includes a variety of Pokémon characteristics, such as:
 
 ## ⚙️ Key Steps
 
-1. **Data Cleaning**: Parsed columns like `capture_rate`, handled missing values, and removed irrelevant or leaked features.
-2. **Feature Selection**: Focused on numerical attributes most related to strength (e.g., stats) while excluding metadata.
+1. **Data Cleaning**: Parsed columns, handled missing values, and removed irrelevant or leaked features.
+2. **Feature Selection**: Focused on numerical attributes mostly related to a Pokémon's stats.
 3. **Train-Test Split**: Used stratified 80/20 split to maintain class proportions.
 4. **Class Balancing**: Applied **SMOTE** to oversample the minority class (legendary Pokémon) in the training set.
 5. **Scaling**: Standardized numerical features before training.
 6. **Modeling**:
    - **Logistic Regression**: Used as a baseline
-   - **Random Forest**: Tuned via `GridSearchCV`
+   - **Random Forest**: Tuned via `GridSearchCV` and thresholding
    - **XGBoost**: Tuned and evaluated with probability thresholding
 7. **Evaluation Metrics**:
    - Accuracy
    - **Precision / Recall / F1-score** (with a focus on Legendary class)
    - **ROC AUC** (used model confidence via `predict_proba`)
-   - Confusion Matrix
-
+     
 ---
 
 ## 🤖 Best Performing Model
@@ -66,7 +65,7 @@ The dataset includes a variety of Pokémon characteristics, such as:
 ## 📁 Files Included
 
 - `Pokemon_Legendary_Classifier.ipynb`: Full code notebook with preprocessing, modeling, and evaluation
-- `pokemon.csv`: Cleaned dataset (or reference to original dataset source)
+- `pokemon.csv`: 🔗 [View Dataset on Kaggle]([https://github.com/andresfigueroa282/Pokemon-Legendary-Classifier](https://www.kaggle.com/datasets/rounakbanik/pokemon)) 
 - `README.md`: Project overview and documentation
 
 ---
