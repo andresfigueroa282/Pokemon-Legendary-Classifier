@@ -65,7 +65,7 @@ The dataset includes a variety of Pokémon characteristics, such as:
 ## 📁 Files Included
 
 - `Pokemon_Legendary_Classifier.ipynb`: Full code notebook with preprocessing, modeling, and evaluation
-- `pokemon.csv`: 🔗 [View Dataset on Kaggle]([https://github.com/andresfigueroa282/Pokemon-Legendary-Classifier](https://www.kaggle.com/datasets/rounakbanik/pokemon)) 
+- `pokemon.csv`: 🔗 [View Dataset on Kaggle](https://github.com/andresfigueroa282/Pokemon-Legendary-Classifier](https://www.kaggle.com/datasets/rounakbanik/pokemon)) 
 - `README.md`: Project overview and documentation
 
 ---
